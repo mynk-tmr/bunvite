@@ -1,0 +1,11 @@
+@import "@fontsource/poppins"; /* also add to tailwind config */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .font-exbold {
+    font-weight: bold;
+    text-shadow: 0px 1px, -1px 0px;
+  }
+}
