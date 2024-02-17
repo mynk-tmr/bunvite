@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+}
+
 @layer components {
   .font-exbold {
     font-weight: bold;
